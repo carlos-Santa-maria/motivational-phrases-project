@@ -1,0 +1,76 @@
+/* General Styles  */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(/imgs/biblioteca.jpg) no-repeat center center/cover;
+}
+
+.alight-content{
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container Styles */
+.container{
+    width:80vw;
+    max-width:600px;
+    min-height:450px;
+    padding:15px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius:30px ;
+}
+
+.internal-container{
+    width: 80%;
+}
+
+/* Content Styles */
+#tittle{
+    font-size: 2rem;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+
+}
+#phrase{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#author{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    font-family: 'Courgette', cursive;
+}
+
+#button{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
